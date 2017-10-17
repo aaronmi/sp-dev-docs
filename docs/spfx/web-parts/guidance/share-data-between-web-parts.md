@@ -295,7 +295,7 @@ The implementation of this service is very similar to when using cookies. One th
 
 Another approach to sharing data between web parts, is by building a SharePoint Framework service and using it to centrally load and manage data. SharePoint Framework services are standalone components built separately from web parts and distributed as separate Node packages. SharePoint Framework web parts can reference services and use them to perform specific operations supported by these services, such as loading data.
 
-> For more information about SharePoint Framework services see [https://github.com/SharePoint/sp-dev-docs/wiki/Tech-Note:-ServiceScope-API](https://github.com/SharePoint/sp-dev-docs/wiki/Tech-Note:-ServiceScope-API).
+> For more information about SharePoint Framework services see [https://github.com/SharePoint/sp-dev-docs/wiki/Tech-Note:-ServiceScope-API](https://docs.microsoft.com/en-us/javascript/api/sp-core-library/servicescope).
 
 The existing service, demonstrated in previous examples, with just a few modifications can be transformed into a SharePoint Framework service.
 
